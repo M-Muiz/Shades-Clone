@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero"
 import Join from "./components/Join/Join"
 import Never from "./components/Never/Never"
 import NextStep from "./components/NextStep/NextStep"
+import Pricing from "./components/Pricing/Pricing"
 import Response from "./components/Response/Response"
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Response />
       <Never />
       <Demo />
+      <Pricing />
       <Join />
       <Footer />
     </>
