@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import NextStep from "./components/NextStep/NextStep"
+import Response from "./components/Response/Response"
 
 const App = () => {
 
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <Hero />
       <NextStep />
+      <Response />
     </>
 
   )
