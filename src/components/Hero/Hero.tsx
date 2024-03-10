@@ -7,10 +7,10 @@ const Hero = () => {
                 <h1 className="text-6xl font-bold">
                     Live chat support for<br /> your customers.
                 </h1>
-                <p className="text-lg font-semibold">Create custom landing pages with Shades that convert<br /> more visitors than any website—no coding required.</p>
+                <p className="text-lg font-medium">Create custom landing pages with Shades that convert<br /> more visitors than any website—no coding required.</p>
                 <div className="flex items-center gap-2">
-                    <input className="border-none outline-none" type="text" placeholder="Enter Your Email" />
-                    <button className="bg-[#1290a4] text-white p-3 w-36 rounded-sm text-sm">Get Started</button>
+                    <input className="border-none outline-none bg-slate-200/70 w-72 p-3 rounded-sm h-12" type="text" placeholder="Enter Your Email" />
+                    <button className="bg-[#1290a4] text-white p-3 w-36 rounded-sm text-sm h-12">Get Started</button>
                 </div>
                 <h3>Already using Shade? <span className="text-[#1290a4] cursor-pointer"> Sign In </span></h3>
             </div>
