@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+    font-family: karla;
+    src: url("./assets/Karla-Regular.ttf");
+}
+
+*{
+    font-family: karla;
+}
 .secondaryText {
     /* color: #1290a4; */
     @apply text-black/70 text-base font-medium !important
@@ -11,3 +20,4 @@
     list-style: none;
     cursor: pointer;
 }
+
