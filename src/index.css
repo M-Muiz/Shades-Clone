@@ -8,9 +8,10 @@
     src: url("./assets/Karla-Regular.ttf");
 }
 
-*{
+* {
     font-family: karla;
 }
+
 .secondaryText {
     /* color: #1290a4; */
     @apply text-black/70 text-base font-medium !important
@@ -21,3 +22,7 @@
     cursor: pointer;
 }
 
+.seprator {
+    height: 0.10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}

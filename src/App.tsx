@@ -1,3 +1,4 @@
+import Demo from "./components/Demo/Demo"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import Never from "./components/Never/Never"
@@ -13,6 +14,7 @@ const App = () => {
       <NextStep />
       <Response />
       <Never />
+      <Demo />
     </>
 
   )
