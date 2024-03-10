@@ -1,10 +1,10 @@
-import React from 'react'
+import response from "../../assets/response.png"
 
 const Response = () => {
     return (
         <div className='flex items-center gap-32 max-w-6xl mx-auto mt-24'>
             <div className="h-full">
-                <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0a3b1040228a02efb5ed12_asset%203.png" alt="" />
+                <img src={response} alt="response" />
             </div>
             <div className="flex flex-col gap-10">
                 <h1 className="text-6xl font-bold">
