@@ -15,7 +15,7 @@ const Hero = () => {
                 <h3>Already using Shade? <span className="text-[#1290a4] cursor-pointer"> Sign In </span></h3>
             </div>
 
-            <div className="h-full w-[550px]">
+            <div className="h-full w-[350px] md:w-[550px]">
                 <img className="h-full w-full" src={heroImg} alt="Hero Image" />
             </div>
         </div>

@@ -3,10 +3,10 @@
 const Join = () => {
     return (
         <div className='max-w-2xl mx-auto mt-20 flex flex-col items-center gap-7'>
-            <h1 className="text-4xl font-semibold">
+            <h1 className="text-2xl lg:text-4xl font-semibold">
                 Join our rich newsletter now
             </h1>
-            <p className="text-lg text-center">
+            <p className="text-md lg:text-lg text-center">
                 We designed and tested prototypes that helped identify pain points in the account creation process. Together, we shaped the new standard.
 
             </p>

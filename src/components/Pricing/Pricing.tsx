@@ -34,12 +34,12 @@ const Pricing = () => {
   return (
     <div className="mt-20">
       <img src={pricingBorder} alt="pricingBorder" />
-      <div className="bg-[#30393b] -mt-4 pb-10 flex flex-col gap-10">
+      <div className="bg-[#30393b] pt-6 pb-10 flex flex-col gap-10 px-4">
         <h1 className="text-4xl text-center text-white font-semibold">Pricing that suits you better</h1>
-        <p className="text-slate-300/80 text-lg text-center">
+        <p className="text-slate-300/80 text-sm md:text-lg text-center">
           We designed and tested prototypes that helped identify pain points in<br /> the account creation process. Together, we shaped the new standard.
         </p>
-        <div className="flex flex-wrap max-w-6xl mx-auto gap-4">
+        <div className="flex flex-wrap max-w-6xl mx-auto gap-4 items-center justify-center">
           {
             data.map((item, ind) => (
               <Card data={item} ind={ind} />

@@ -2,12 +2,12 @@ import logo from "../../assets/logo.png"
 
 const Footer = () => {
     return (
-        <div className='max-w-6xl mx-auto mt-20 flex justify-between flex-wrap gap-7 pb-40'>
-            {/* <div className="h-1 bg-red-100" /> */}
+        <div className='max-w-6xl mx-auto mt-20 flex flex-col  md:flex-row justify-between  gap-7 pb-12 lg:pb-32 px-6'>
 
-            <div className="flex flex-col gap-6">
+
+            <div className="flex flex-col gap-6 items-center">
                 <img className="w-24" src={logo} alt="logo" />
-                <div className="text-base">
+                <div className="text-base text-center">
                     Big, small, online, offline, local. Size doesn't<br /> matter. We work on diverse projects for top<br /> brands as well as for cool startups.
                 </div>
                 <div className="h-4 w-4">
@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex flex-1 flex-wrap justify-around">
+            <div className="flex md:flex-1 flex-wrap md:flex-nowrap justify-around">
                 <div className="font-semibold">
                     <p className="text-sm text-gray-500 font-medium">Help Menu</p>
 
