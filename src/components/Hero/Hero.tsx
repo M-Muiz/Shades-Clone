@@ -2,9 +2,9 @@ import heroImg from "../../assets/hero.png"
 
 const Hero = () => {
     return (
-        <div className="max-w-6xl mx-auto flex items-center mt-20">
+        <div className="max-w-6xl mx-auto flex items-center flex-col md:flex-row mt-20 px-3">
             <div className="flex flex-col gap-8">
-                <h1 className="text-6xl font-bold">
+                <h1 className="text-4xl lg:text-6xl font-bold">
                     Live chat support for<br /> your customers.
                 </h1>
                 <p className="text-lg font-medium">Create custom landing pages with Shades that convert<br /> more visitors than any website—no coding required.</p>

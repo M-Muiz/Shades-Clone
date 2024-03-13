@@ -3,20 +3,20 @@ import check from "../../assets/check.svg"
 
 const Never = () => {
     return (
-        <div className='flex justify-between max-w-6xl mx-auto mt-24'>
+        <div className='flex justify-between max-w-6xl mx-auto mt-24 flex-col lg:flex-row items-center px-3'>
 
             <div className="flex flex-col gap-10 mt-4">
                 <h1 className="text-5xl font-bold">
                     Never miss a thing
                 </h1>
 
-                <p className="text-base">
+                <p className="text-base text-center">
 
                     Event is not like most tech conferences. We<br /> want our presentations to engage the audience,<br /> spark discussion and inspire new ideas.
                 </p>
 
 
-                <div className="flex flex-col gap-6">
+                <div className="flex flex-col gap-6 items-center">
                     <div className="flex items-center gap-4">
                         <img src={check} alt="check" />
                         <h4>Unlimited design possibility</h4>

@@ -2,7 +2,7 @@ import logo from "../../assets/logo.png"
 
 const Header = () => {
   return (
-    <div className="max-w-6xl mx-auto flex items-center justify-between px-3 py-5">
+    <div className="max-w-6xl mx-auto flex items-center flex-col lg:flex-row justify-between px-3 py-5 gap-3">
       <div>
         <img src={logo} alt="" />
       </div>
