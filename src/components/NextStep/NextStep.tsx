@@ -23,8 +23,8 @@ const NextStep = () => {
     ];
     return (
         <div className="mt-8">
-            <img src={nextBorder} alt="" />
-            <div className="bg-[#eef4f5] -mt-4 pb-10">
+            <img className="w-full" src={nextBorder} alt="border" />
+            <div className="bg-[#eef4f5]  pb-10 -mt-6">
                 <h1 className="text-center text-4xl font-semibold pt-6">Make your next step</h1>
                 <motion.div initial={{ y: "40%", opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}

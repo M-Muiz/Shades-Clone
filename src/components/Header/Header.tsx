@@ -19,11 +19,11 @@ const Header = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.7 }}>
         <ul className="flex items-center gap-5">
-          <li className="secondaryText">Free Landing Pages</li>
-          <li className="secondaryText">Features</li>
-          <li className="secondaryText">Services</li>
-          <li className="secondaryText">Pricing</li>
-          <li className="secondaryText">Contact</li>
+          <li className="secondaryText hover:text-[#1290a4]">Free Landing Pages</li>
+          <li className="secondaryText hover:text-[#1290a4]">Features</li>
+          <li className="secondaryText hover:text-[#1290a4]">Services</li>
+          <li className="secondaryText hover:text-[#1290a4]">Pricing</li>
+          <li className="secondaryText hover:text-[#1290a4]">Contact</li>
         </ul>
       </motion.div>
       <motion.div
