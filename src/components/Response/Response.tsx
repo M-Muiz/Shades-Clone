@@ -3,17 +3,19 @@ import { motion } from "framer-motion"
 
 const Response = () => {
     return (
-        <div className='flex items-center gap-8 lg:gap-32 max-w-6xl mx-auto mt-24 flex-col lg:flex-row'>
-            <motion.div initial={{ x: "-100%", opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
+        <div className='flex items-center gap-8 lg:gap-32 max-w-6xl mx-auto mt-24 flex-col lg:flex-row overflow-hidden'>
+            <motion.div initial={{ x: "-70%", opacity: 0 }}
+                viewport={{ once: true }}
+                whileInView={{ x: 0, opacity: 1 }}
                 transition={{
                     duration: 2,
                     type: "spring"
                 }} className="lg:h-full h-[300px]">
                 <img src={response} alt="response" className="h-full" />
             </motion.div>
-            <motion.div initial={{ x: "100%", opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
+            <motion.div initial={{ y: "100%", opacity: 0 }}
+                viewport={{ once: true }}
+                whileInView={{ y: 0, opacity: 1 }}
                 transition={{
                     duration: 2,
                     type: "spring"
